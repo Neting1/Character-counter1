@@ -11,11 +11,11 @@ const Header: React.FC<HeaderProps> = ({ isDarkMode, onToggleTheme }) => {
     <header className="flex justify-between items-center px-2">
       <div className="flex items-center gap-3">
         <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-purple-600 to-pink-600 flex items-center justify-center text-white font-black text-xl shadow-lg shadow-purple-500/20">
-          A
+          X
         </div>
         <div className="flex flex-col">
-          <span className="font-bold text-xl leading-none tracking-tight">Analyzer</span>
-          <span className="text-[10px] font-bold uppercase tracking-[0.2em] opacity-50">Studio</span>
+          <span className="font-bold text-xl leading-none tracking-tight">Xeonsys</span>
+          <span className="text-[10px] font-bold uppercase tracking-[0.2em] opacity-50">Words Analyzer</span>
         </div>
       </div>
       
